@@ -21,7 +21,6 @@ public class Main {
         System.out.println("Permutations:");
         ArrayList<ArrayList<Task>> data = Optimise.permutate(tasks, 0);
         for(int i=0; i<data.size(); i++){
-
             System.out.println("\n");
             for(int j=0; j<data.get(i).size(); j++) {
                 System.out.print(data.get(i).get(j).getName() + ", ");

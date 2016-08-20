@@ -19,12 +19,12 @@ class Optimise {
         Task cleanUp = new Task(15, 3, "Change bedsheets");
         Task washSheets = new Task(5, 1, "Wash bedsheets", cleanUp);
         Task washDishes = new Task(10, 1, "Wash Dishes");
-        Task poop = new Task(15, 2, "Clean bathroom");
+        Task cleanBathroom = new Task(15, 2, "Clean bathroom");
         Task laundry = new Task(5, 1, "Laundry");
         Task shower = new Task(15, 1, "Shower");
 
         tasks.add(washDishes);
-        tasks.add(poop);
+        tasks.add(cleanBathroom);
         tasks.add(laundry);
         tasks.add(shower);
         tasks.add(cleanUp);
